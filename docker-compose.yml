@@ -4,8 +4,8 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: DB_PASSWORD
-      POSTGRES_USER: DB_USER
-      POSTGRES_DB: DB_NAME
+      POSTGRES_PASSWORD: afladlsl4536
+      POSTGRES_USER: Edu
+      POSTGRES_DB: LTIdb
     ports:
       - 5432:5432
