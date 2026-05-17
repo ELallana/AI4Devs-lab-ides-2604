@@ -14,14 +14,16 @@ datasource db {
 }
 
 model Candidate {
-  id        Int     @id @default(autoincrement())
-  name      String
-  surname   String
-  email     String  @unique
-  phone     String
-  education String?
-  job_exp   String?
-  cv_path   String?
+  id         Int      @id @default(autoincrement())
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  name       String
+  surname    String
+  email      String   @unique
+  phone      String
+  education  String?
+  job_exp    String?
+  resume     Bytes?
 
   @@map("candidate")
 }
