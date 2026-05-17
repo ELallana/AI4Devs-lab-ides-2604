@@ -1,0 +1,13 @@
+The doc directory is for the documentation of the project. It have the next structure:
+- entities: contains the entities of the project.
+- userInterface: contains the graphical user interface (GUI) of the project. With a sort description of each page.
+- useCases: contains the use cases of the project. The elements are:
+  - Id
+  - Name
+  - Scope
+  - Related use cases
+  - Prerequisites: The preconditions to execute the use case.
+  - Initiator: The action that starts the use case.
+  - Steps: The steps to execute the use case.
+- comms: Contains the descriptions for the communications interfaces of the project.
+- db: Contains the descriptions for the database of the project.
